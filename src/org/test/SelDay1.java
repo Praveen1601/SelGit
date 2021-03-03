@@ -12,6 +12,7 @@ public class SelDay1 {
 		driver.get(" https://www.facebook.com/");
 		WebElement sel = driver.findElement(By.id("email"));
 		sel.sendKeys("praveen");
+		System.out.println("kumar");
 	}
 
 }
