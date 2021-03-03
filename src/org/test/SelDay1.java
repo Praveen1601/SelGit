@@ -13,6 +13,7 @@ public class SelDay1 {
 		WebElement sel = driver.findElement(By.id("email"));
 		sel.sendKeys("praveen");
 		System.out.println("kumar");
+		System.out.println("Tester");
 	}
 
 }
